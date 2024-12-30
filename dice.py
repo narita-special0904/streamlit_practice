@@ -19,7 +19,7 @@ if not multiple:
 
         dice_sum = dice_1 + dice_2
         st.session_state.dices_list.append((dice_1, dice_2, dice_sum))
-        st.write(f"サイコロ1： {dice_1} ／サイコロ2： {dice_2}")
+        # st.write(f"サイコロ1： {dice_1} ／サイコロ2： {dice_2}")
 else:
     n = st.slider("回数", 1, 1000, 500)
 
