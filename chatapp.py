@@ -35,7 +35,7 @@ def select_model():
         azure_deployment = os.environ["AZURE_OPENAI_MODEL_4O_MINI"],
         api_version = "2024-11-01-preview",
         temperature = temperature,
-        max_tokens = 400,
+        max_tokens = 500,
         timeout = None,
         max_retries = 2,
     )
